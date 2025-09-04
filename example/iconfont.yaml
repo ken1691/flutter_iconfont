@@ -1,0 +1,7 @@
+icons:
+  - url: //at.alicdn.com/t/c/font_3892650_94qckhszrmg.css
+    icon_name: icon1
+    font_assets_path: assets/iconfont/
+  - url: //at.alicdn.com/t/c/font_4878696_10u44l2n1n9f.css
+    icon_name: icon2
+    font_assets_path: assets/iconfont/

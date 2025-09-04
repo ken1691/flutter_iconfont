@@ -1,0 +1,36 @@
+name: flutter_iconfont
+description: A Flutter package for generating icon font classes from iconfont.cn. Automatically downloads font files and generates Dart classes for easy icon usage.
+version: 0.1.5
+homepage: https://github.com/yourusername/flutter_iconfont
+repository: https://github.com/yourusername/flutter_iconfont
+issue_tracker: https://github.com/yourusername/flutter_iconfont/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  yaml: ^3.1.2
+  path: ^1.8.3
+  args: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  fonts:
+    - family: TestIcon
+      fonts:
+        - asset: assets/iconfont/test_icon.ttf/TestIcon.ttf
+
+# 配置命令行工具
+executables:
+  flutter_iconfont: flutter_iconfont
