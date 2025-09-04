@@ -74,7 +74,7 @@ Usage: flutter_iconfont [options]
 
 ### 获取url的方式
 
-![image.png](./images/image1.png)
+![image.png](https://github.com/ken1691/flutter_iconfont/raw/main/images/image1.png)
 
 ## 许可证
 
